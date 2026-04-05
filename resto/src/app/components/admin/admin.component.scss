@@ -1,0 +1,23 @@
+  .nav-tabs .nav-link {
+    border: none;
+    color: #555;
+    font-weight: 500;
+  }
+
+  .nav-tabs .nav-link.active {
+    color: #ff6f00;
+    border-bottom: 3px solid #ff6f00;
+    background-color: transparent;
+  }
+
+  .nav-tabs .nav-link:hover {
+    color: #ff6f00;
+  }
+
+  .tab-content {
+    background: #fff;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  }

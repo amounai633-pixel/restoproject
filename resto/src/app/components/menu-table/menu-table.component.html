@@ -1,0 +1,18 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">Name OF Dish</th>
+      <th scope="col">Price</th>
+      <th scope="col">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor=" let menu of menuTable">
+      <th scope="row">{{ menu.id }}</th>
+      <td>{{ menu.name }}</td>
+      <td>{{ menu.price }}</td>
+    </tr>
+  
+  </tbody>
+</table>

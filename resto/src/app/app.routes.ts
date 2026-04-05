@@ -4,6 +4,7 @@ import { SignupComponent } from './components/signup/signup.component';
 import { HomeComponent } from './components/home/home.component';
 import { AddChefComponent } from './components/add-chef/add-chef.component';
 import { AddMenuComponent } from './components/add-menu/add-menu.component';
+import { AdminComponent } from './components/admin/admin.component';
 
 export const routes: Routes = [
     // http://localhost:4200 => Home will be displayed
@@ -13,6 +14,7 @@ export const routes: Routes = [
     { path: "signup", component: SignupComponent },
     { path: "addChef", component: AddChefComponent },
     { path: "addMenu", component: AddMenuComponent },
+    { path: "admin", component: AdminComponent },
 
 
 ];
